@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Delete 
+# Delete "local-lvm" from Datacenter -> Storage in the web GUI first
 
 lvremove /dev/pve/data
 lvresize -l +100%FREE /dev/pve/root
